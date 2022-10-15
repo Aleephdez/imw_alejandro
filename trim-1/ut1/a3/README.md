@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Esta actividad vamos a configurar 4 sitios web o virtual hosts utilizando Nginx.
+En esta actividad vamos a configurar 4 sitios web o virtual hosts utilizando Nginx.
 
 ## Desarrollo
 
