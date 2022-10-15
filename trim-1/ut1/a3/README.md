@@ -1,5 +1,14 @@
 # UT1-A3: Trabajo con virtual hosts
 
+## Índice
+
++ [Introducción](#id1)
++ [Desarrollo](#id2)
++ [Sitio web 1 - imw.alejandro.meo](#id3)
++ [Sitio web 2 - varlib.alejandro.me](#id4)
++ [Sitio web 3 - ssl.alejandro.me](#id5)
++ [Sitio web 4 - target.alejandro.me](#id5)
+
 ## Introducción <a name="id1"></a>
 
 En esta actividad vamos a configurar 4 sitios web o virtual hosts utilizando Nginx.
@@ -89,7 +98,7 @@ Finalmente, nuestra web quedaría de la siguiente forma:
 ![](img/13.png)
 
 
-## Sitio web 4 - redirect.alejandro.me <a name="id6"></a>
+## Sitio web 4 - target.alejandro.me <a name="id6"></a>
 
 Para este último virtual host vamos a configurar una redirección. Redirigiremos todas las peticiones que se hagan a `http://redirect.alejandro.me` a `http://target.alejandro.me`. 
 
