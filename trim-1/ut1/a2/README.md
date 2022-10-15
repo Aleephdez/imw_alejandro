@@ -1,5 +1,8 @@
 # UT1-A2: Listado de directorios
 
+***Nombre:*** Alejandro de Paz Hernández
+***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+
 ## Introducción
 
 Vamos a añadir el directorio `shared` a nuestra web `alejandro.me`. Este directorio mostrará una serie de ficheros que contienen información sobre nuestra máquina cliente.

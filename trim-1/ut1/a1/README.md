@@ -1,5 +1,8 @@
 # UT1-A1: Mis series favoritas
 
+***Nombre:*** Alejandro de Paz Hernández
+***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+
 ## Introducción
 
 Vamos a utilizar nginx para alojar una página web que muestre nuestras series favoritas. El nombre de la página será `alejandro.me` y nos mostrará las imágenes de las series al entrar en `alejandro.me/series/`.
