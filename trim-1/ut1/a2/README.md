@@ -1,6 +1,7 @@
 # UT1-A2: Listado de directorios
 
 ***Nombre:*** Alejandro de Paz Hernández
+
 ***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ## Introducción
