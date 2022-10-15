@@ -1,16 +1,16 @@
 # UT1-A3: Trabajo con virtual hosts
 
-## Introducción
+## Introducción <a name="id1"></a>
 
 En esta actividad vamos a configurar 4 sitios web o virtual hosts utilizando Nginx.
 
-## Desarrollo
+## Desarrollo <a name="id2"></a>
 
 Empezamos añadiendo los nombres de los 4 sitios web en el fichero `/etc/hosts`:
 
 ![](img/2.png)
 
-## Sitio web 1 - imw.alejandro.me
+## Sitio web 1 - imw.alejandro.me <a name="id3"></a>
 
 En esta primerá página web vamos a mostrar una imagen con el temario de la asignatura. Para ello, descargamos dicha imagen en la máquina cliente y la pasamos a la máquina servidor con el comando `scp`:
 
@@ -41,7 +41,7 @@ Una vez configurado el virtual host, vamos a añadir un subdirectorio llamado `/
 
 ```
 
-## Sitio web 2 - varlib.alejandro.me
+## Sitio web 2 - varlib.alejandro.me <a name="id4"></a>
 
 En este segundo virtual host vamos a mostrar el listado de ficheros y directorios de `/var/lib/` de la máquina servidor. Además, tendremos que utilizar el puerto 9000. Para ello, creamos el virtual host con los siguientes parámetros (para facilitar las cosas, definiremos como root el propio directorio `/var/lib/`):
 
@@ -55,7 +55,7 @@ Comprobamos accediendo a la web:
 
 ![](img/8.png)
 
-## Sitio web 3 - ssl.alejandro.me
+## Sitio web 3 - ssl.alejandro.me <a name="id5"></a>
 
 Vamos a crear un virtual host con un nivel de seguridad superior a los anteriores, añadiendo un sistema de autenticación para poder acceder al mismo.
 
@@ -89,7 +89,7 @@ Finalmente, nuestra web quedaría de la siguiente forma:
 ![](img/13.png)
 
 
-## Sitio web 4 - redirect.alejandro.me
+## Sitio web 4 - redirect.alejandro.me <a name="id6"></a>
 
 Para este último virtual host vamos a configurar una redirección. Redirigiremos todas las peticiones que se hagan a `http://redirect.alejandro.me` a `http://target.alejandro.me`. 
 
