@@ -5,7 +5,7 @@ import sys
 
 if len(sys.argv) < 4:
 
-    print('Debes introducir 3 números, separados por espacios.')
+    print('Debes introducir los 3 coeficientes de la ecuación')
 
 else: #Si se han introducido correctamente, leemos los valores y los almacenamos
 
