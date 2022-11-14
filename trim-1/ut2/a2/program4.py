@@ -16,17 +16,17 @@ class color:
 
 radius = float(sys.argv[1])
 
+print(color.CYAN + '[+] 1. Calcular el diámetro de una circunferencia')
+print('[+] 2. Calcular el perímetro de una circunferencia')
+print('[+] 3. Calcular el área del círculo')
+print('[+] 4. Calcular las tres anteriores')
+print('[+] 5. Salir' + color.END)
+
 exit = False
 
 while not exit:
 
-    print(color.CYAN + '[+] 1. Calcular el diámetro de una circunferencia')
-    print('[+] 2. Calcular el perímetro de una circunferencia')
-    print('[+] 3. Calcular el área del círculo')
-    print('[+] 4. Calcular las tres anteriores')
-    print('[+] 5. Salir' + color.END)
-
-    option = int((input(color.BOLD + 'Introduzca una opción:' + color.END)))
+    option = int((input(color.END + 'Introduzca una opción:')))
 
     if option == 5:
 
