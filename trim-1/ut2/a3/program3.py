@@ -25,8 +25,8 @@ else: #En caso de no tener ningún número igual a 0, calculamos el MCD
     b = min(num1, num2)
     
     while b != 0:
-        resto = b
-        b = a%b
-        a = resto
+        residual = b 
+        b = a%b      
+        a = residual    
     
     print('[+]El MCD de', num1, 'y', num2, 'es', a)
