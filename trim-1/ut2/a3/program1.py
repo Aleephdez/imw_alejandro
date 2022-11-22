@@ -19,7 +19,6 @@ elif num == 1 or num == 0:
 for i in range(1, num+1):
     
      residual = num%i   #Si el resto de la división es 0 → num es divisible por i
-     print(i)
      if residual == 0:  #Si num es divisible por i, sumamos uno al contador. 
          counter += 1
          if counter > 2: #Sabemos que un número primo solo tiene dos divisores, así que en el momento en el que encontremos más de dos salimos del bucle.
