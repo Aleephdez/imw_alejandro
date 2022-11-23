@@ -9,7 +9,7 @@ if num < 0:
     print("[*] Introduce un número positivo")
     sys.exit(0)
 
-   
+#Calculamos el cuadrador de cada número y acumulamos el resultado en total.   
 for i in range(1,num+1):
    total += i**2
 

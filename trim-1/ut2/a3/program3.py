@@ -24,9 +24,10 @@ else: #En caso de no tener ningún número igual a 0, calculamos el MCD
     a = max(num1, num2) 
     b = min(num1, num2)
     
+    #El objetivo del bucle es que b llegue a 0, ya que cuando llegue significará que hemos dado con el máximo divisor.
     while b != 0:
-        residual = b 
-        b = a%b      
-        a = residual    
+        save_value = b # guardamos el valor de b y lo actualizamos en cada iteración
+        b = a%b      # calculamos el resto de la división entre a y b y lo almacenamos en b
+        a = save_value   # metemos en a el valor salvado/actualizado de b para realizar la división de nuevo en la siguiente iteración
     
     print('[+]El MCD de', num1, 'y', num2, 'es', a)
