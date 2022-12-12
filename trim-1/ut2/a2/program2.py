@@ -38,4 +38,4 @@ else: #Si se han introducido correctamente, leemos los valores y los almacenamos
    if point1_distance < point2_distance:
       print(color.CYAN + 'El punto más cercano a ('f'{x1}'', 'f'{y1}'') es ('f'{x2}'', 'f'{y2}'') a distancia 'f'{point1_distance}' + color.END) 
    else:
-      print(color.CYAN + 'El punto más cercano a ('f'{x1}'', 'f'{y1}'') es ('f'{x3}'', 'f'{y3}'') a distancia 'f'{point1_distance}' + color.END) 
+      print(color.CYAN + 'El punto más cercano a ('f'{x1}'', 'f'{y1}'') es ('f'{x3}'', 'f'{y3}'') a distancia 'f'{point2_distance}' + color.END) 
