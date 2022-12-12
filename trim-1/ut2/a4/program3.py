@@ -3,15 +3,17 @@ import sys
 #Iniciamos la variable contador
 counter = 0
 
-#Leemos por pantalla
+#Leemos por pantalla el entero y la cadena
 k = int(sys.argv[1])
 
 string = sys.argv[2]
 
 if len(sys.argv) != 3:
-    print("Debes introducir una cadena válida")
+    print("Formato incorrecto. Para utilizar el programa, introduce un número natural distinto de 0 seguido de una cadena de texto entre \"\"")
+    sys.exit(0)
 if k <= 0:
     print("Introduce un número positivo distinto de 0")
+    sys.exit(0)
 
 #Separamos las palabras de la cadena para analizarlas una a una
 word_list = string.split()

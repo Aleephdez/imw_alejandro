@@ -6,7 +6,7 @@ total_add = 0.0
 #Leemos la lista de números
 number_list= sys.argv
 
-#Sacamos el primer elemento de la lista, que es el nombre del fichero
+#Eliminamos el primer elemento de la lista, que es el nombre del fichero
 number_list.pop(0)
 
 #Calculamos el tamaño de la lista para hacer la media más adelante
