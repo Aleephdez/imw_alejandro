@@ -51,7 +51,7 @@ def halfs(text):
     for i in range(half):   #Recorremos el texto hasta la mitad y vamos añadiendo las palabras en la cadena que hemos definido
         string = string + text[i]
     
-    string = string + '| '  #Cuando hayamos recorrido la primera mitad, añadimos el separador
+    string = string + ' | '  #Cuando hayamos recorrido la primera mitad, añadimos el separador
 
     for i in range(half, length(text)): #Recorremos la segunda mitad del texto e introducimos las palabras restantes
         string = string + text[i]
