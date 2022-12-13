@@ -1,5 +1,5 @@
 import sys
-
+#Definimos una clase para dar color a la salida
 class color:
    CYAN = '\033[96m'
    BLUE = '\033[94m'
@@ -38,7 +38,6 @@ def menu():
 
     #Iniciamos la variable exit y creamos un diccionario vacío
     exit = False
-
     phone_book = {}
 
     #Mostramos el menú. Lo hacemos fuera del while para que no se repita constantemente y la salida sea más limpia.
